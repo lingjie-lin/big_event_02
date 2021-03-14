@@ -67,7 +67,7 @@ $(function () {
         // 发送ajax请求
         $.ajax({
             type: 'POST',
-            url: 'http://api-breakingnews-web.itheima.net/api/login',
+            url: '/api/login',
             data: $(this).serialize(),
             success: (res) => {
                 console.log(res);
